@@ -55,3 +55,34 @@ header{
     text-decoration: none;
     cursor: pointer;
 }
+
+#google-logo{
+    display: block;
+    margin: 230px auto 50px;
+}
+
+.search-bar{
+    text-align: center;
+    padding-top: 5px 20px;
+}
+
+#search{
+    width: 500px;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding: 0 50px;
+}
+
+#search:hover{
+    box-shadow: 2px 2px 5px lightgray;
+}
+
+#search:focus{
+    outline: none;
+}
+
+#mag{
+    position: relative;
+
+}
