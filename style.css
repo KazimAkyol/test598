@@ -58,23 +58,27 @@ header{
 
 #google-logo{
     display: block;
-    margin: 230px auto 50px;
+    margin: 230px auto 20px;
 }
 
 .search-bar{
     text-align: center;
     padding-top: 5px 20px;
+    position: absolute;
+    width: 500px;
+    border: 1px solid lightgray;
+    margin: auto;
+    border-radius: 20px;
 }
 
 #search{
-    width: 500px;
+    width: 450px;
     height: 40px;
-    border: 1px solid lightgray;
-    border-radius: 20px;
-    padding: 0 50px;
+    padding: 0 30px;
+    border: none;
 }
 
-#search:hover{
+.search-bar:hover{
     box-shadow: 2px 2px 5px lightgray;
 }
 
@@ -83,6 +87,15 @@ header{
 }
 
 #mag{
-    position: relative;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    height: 30px;
+}
 
+#mic{
+    position: absolute;
+    width: 15px;
+    right: 15px;
+    top: 13px;
 }
