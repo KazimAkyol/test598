@@ -64,7 +64,7 @@ header{
 .search-bar{
     text-align: center;
     padding-top: 5px 20px;
-    position: absolute;
+    position: relative;
     width: 500px;
     border: 1px solid lightgray;
     margin: auto;
@@ -79,7 +79,7 @@ header{
 }
 
 .search-bar:hover{
-    box-shadow: 2px 2px 5px lightgray;
+    box-shadow: 5px 5px 5px lightgray;
 }
 
 #search:focus{
@@ -88,7 +88,7 @@ header{
 
 #mag{
     position: absolute;
-    left: 0px;
+    left: 15px;
     top: 10px;
     height: 30px;
 }
@@ -96,6 +96,15 @@ header{
 #mic{
     position: absolute;
     width: 15px;
-    right: 15px;
+    right: 25px;
     top: 13px;
+}
+
+.button-container{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.button-box{
+    margin-right: 10px;
 }
